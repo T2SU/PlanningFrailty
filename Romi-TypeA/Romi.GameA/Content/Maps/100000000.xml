@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+	<Info>
+		<BGM></BGM>
+	</Info>
+	<Back>
+		<Image Path="Tile/White" X="0" Y="0"/>
+		<Image Path="Tile/White" X="0" Y="64"/>
+		<Image Path="Tile/White" X="0" Y="128"/>
+		<Image Path="Tile/White" X="0" Y="192"/>
+		<Image Path="Tile/White" X="0" Y="256"/>
+		<Image Path="Tile/White" X="0" Y="320"/>
+		<Image Path="Tile/White" X="0" Y="384"/>
+		<Image Path="Tile/White" X="64" Y="0"/>
+		<Image Path="Tile/White" X="64" Y="64"/>
+		<Image Path="Tile/White" X="64" Y="128"/>
+		<Image Path="Tile/White" X="64" Y="192"/>
+		<Image Path="Tile/White" X="64" Y="256"/>
+		<Image Path="Tile/White" X="64" Y="320"/>
+		<Image Path="Tile/White" X="64" Y="384"/>
+		<Image Path="Tile/White" X="128" Y="0"/>
+		<Image Path="Tile/White" X="128" Y="64"/>
+		<Image Path="Tile/White" X="128" Y="128"/>
+		<Image Path="Tile/White" X="128" Y="192"/>
+		<Image Path="Tile/White" X="128" Y="256"/>
+		<Image Path="Tile/White" X="128" Y="320"/>
+		<Image Path="Tile/White" X="128" Y="384"/>
+		<Image Path="Tile/White" X="192" Y="0"/>
+		<Image Path="Tile/White" X="192" Y="64"/>
+		<Image Path="Tile/White" X="192" Y="128"/>
+		<Image Path="Tile/White" X="192" Y="192"/>
+		<Image Path="Tile/White" X="192" Y="256"/>
+		<Image Path="Tile/White" X="192" Y="320"/>
+		<Image Path="Tile/White" X="192" Y="384"/>
+		<Image Path="Tile/White" X="256" Y="0"/>
+		<Image Path="Tile/White" X="256" Y="64"/>
+		<Image Path="Tile/White" X="256" Y="128"/>
+		<Image Path="Tile/White" X="256" Y="192"/>
+		<Image Path="Tile/White" X="256" Y="256"/>
+		<Image Path="Tile/White" X="256" Y="320"/>
+		<Image Path="Tile/White" X="256" Y="384"/>
+		<Image Path="Tile/White" X="320" Y="0"/>
+		<Image Path="Tile/White" X="320" Y="64"/>
+		<Image Path="Tile/White" X="320" Y="128"/>
+		<Image Path="Tile/White" X="320" Y="192"/>
+		<Image Path="Tile/White" X="320" Y="256"/>
+		<Image Path="Tile/White" X="320" Y="320"/>
+		<Image Path="Tile/White" X="320" Y="384"/>
+		<Image Path="Tile/White" X="384" Y="0"/>
+		<Image Path="Tile/White" X="384" Y="64"/>
+		<Image Path="Tile/White" X="384" Y="128"/>
+		<Image Path="Tile/White" X="384" Y="192"/>
+		<Image Path="Tile/White" X="384" Y="256"/>
+		<Image Path="Tile/White" X="384" Y="320"/>
+		<Image Path="Tile/White" X="384" Y="384"/>
+		<Image Path="Tile/White" X="448" Y="0"/>
+		<Image Path="Tile/White" X="448" Y="64"/>
+		<Image Path="Tile/White" X="448" Y="128"/>
+		<Image Path="Tile/White" X="448" Y="192"/>
+		<Image Path="Tile/White" X="448" Y="256"/>
+		<Image Path="Tile/White" X="448" Y="320"/>
+		<Image Path="Tile/White" X="448" Y="384"/>
+		<Image Path="Tile/White" X="512" Y="0"/>
+		<Image Path="Tile/White" X="512" Y="64"/>
+		<Image Path="Tile/White" X="512" Y="128"/>
+		<Image Path="Tile/White" X="512" Y="192"/>
+		<Image Path="Tile/White" X="512" Y="256"/>
+		<Image Path="Tile/White" X="512" Y="320"/>
+		<Image Path="Tile/White" X="512" Y="384"/>
+		<Image Path="Tile/White" X="576" Y="0"/>
+		<Image Path="Tile/White" X="576" Y="64"/>
+		<Image Path="Tile/White" X="576" Y="128"/>
+		<Image Path="Tile/White" X="576" Y="192"/>
+		<Image Path="Tile/White" X="576" Y="256"/>
+		<Image Path="Tile/White" X="576" Y="320"/>
+		<Image Path="Tile/White" X="576" Y="384"/>
+		<Image Path="Tile/White" X="640" Y="0"/>
+		<Image Path="Tile/White" X="640" Y="64"/>
+		<Image Path="Tile/White" X="640" Y="128"/>
+		<Image Path="Tile/White" X="640" Y="192"/>
+		<Image Path="Tile/White" X="640" Y="256"/>
+		<Image Path="Tile/White" X="640" Y="320"/>
+		<Image Path="Tile/White" X="640" Y="384"/>
+		<Image Path="Tile/White" X="704" Y="0"/>
+		<Image Path="Tile/White" X="704" Y="64"/>
+		<Image Path="Tile/White" X="704" Y="128"/>
+		<Image Path="Tile/White" X="704" Y="192"/>
+		<Image Path="Tile/White" X="704" Y="256"/>
+		<Image Path="Tile/White" X="704" Y="320"/>
+		<Image Path="Tile/White" X="704" Y="384"/>
+	</Back>
+</Map>

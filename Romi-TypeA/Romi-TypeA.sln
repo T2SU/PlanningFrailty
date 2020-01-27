@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romi.GameA", "Romi.GameA\Romi.GameA.csproj", "{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romi.Standard", "Romi.Standard\Romi.Standard.csproj", "{90C62FCC-7EAF-413C-9E37-7918669774C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteFontPlus", "SpriteFontPlus\SpriteFontPlus.csproj", "{BCF57A82-BAB9-4509-A373-C3C26A8792FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romi.GameX", "Romi.GameX\Romi.GameX.csproj", "{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Release|x86.Build.0 = Release|Any CPU
+		{B19AEBA8-0177-4011-ADF6-FF3C53CC85B3}.Release|x86.Deploy.0 = Release|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Debug|x86.Build.0 = Debug|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{90C62FCC-7EAF-413C-9E37-7918669774C9}.Release|x86.Build.0 = Release|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{BCF57A82-BAB9-4509-A373-C3C26A8792FF}.Release|x86.Build.0 = Release|Any CPU
+		{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}.Debug|Any CPU.Build.0 = Debug|x86
+		{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}.Debug|x86.ActiveCfg = Debug|x86
+		{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}.Debug|x86.Build.0 = Debug|x86
+		{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}.Release|Any CPU.ActiveCfg = Release|x86
+		{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}.Release|x86.ActiveCfg = Release|x86
+		{90EFE3BC-EA6D-4489-B0E1-08CF5A05E6FD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBE548E2-2EBF-45B7-9B06-2C61F5899CB1}
+	EndGlobalSection
+EndGlobal

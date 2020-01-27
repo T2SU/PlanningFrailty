@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+	<Info>
+		<BGM>Sounds/BGM/bgm_about</BGM>
+	</Info>
+	<Back>
+		<Image Path="Fullmoon/Album" X="240" Y="80" ScaleX="0.5" ScaleY="0.5"/>
+	</Back>
+</Map>

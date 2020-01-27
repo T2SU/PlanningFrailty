@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90C62FCC-7EAF-413C-9E37-7918669774C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Romi.Standard</RootNamespace>
+    <AssemblyName>Romi.Standard</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.Portable.3.7.1.189\lib\portable-net45+win8+wpa81\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Diagnostics\Log.cs" />
+    <Compile Include="Diagnostics\SystemStatus.cs" />
+    <Compile Include="Events\IInteractible.cs" />
+    <Compile Include="Graphics\DisplayConst.cs" />
+    <Compile Include="Graphics\DisplayUtils.cs" />
+    <Compile Include="Inputs\KeyboardStateEx.cs" />
+    <Compile Include="Inputs\MouseStateEx.cs" />
+    <Compile Include="Inputs\TouchPanelEx.cs" />
+    <Compile Include="Objects\IExpirableObj.cs" />
+    <Compile Include="Objects\RMObj.cs" />
+    <Compile Include="Objects\RM.cs" />
+    <Compile Include="Objects\Sprites\Sprite.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ContentLoaderMan.cs" />
+    <Compile Include="Resources\FontMan.cs" />
+    <Compile Include="Resources\IContentLoader.cs" />
+    <Compile Include="RMGame.cs" />
+    <Compile Include="Stages\Configurations\StageConfiguration.cs" />
+    <Compile Include="Stages\RMEmptyStage.cs" />
+    <Compile Include="Stages\RMStage.cs" />
+    <Compile Include="Stages\Stage.cs" />
+    <Compile Include="Stages\StageState.cs" />
+    <Compile Include="Stages\TransferStage.cs" />
+    <Compile Include="UIControls\Buttons\RMButton.cs" />
+    <Compile Include="UIControls\Buttons\RMSingleImageButton.cs" />
+    <Compile Include="UIControls\Buttons\RMImageTextButton.cs" />
+    <Compile Include="UIControls\IControl.cs" />
+    <Compile Include="UIControls\InputSignal.cs" />
+    <Compile Include="UIControls\Texts\RMText.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SpriteFontPlus\SpriteFontPlus.csproj">
+      <Project>{bcf57a82-bab9-4509-a373-c3c26a8792ff}</Project>
+      <Name>SpriteFontPlus</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
